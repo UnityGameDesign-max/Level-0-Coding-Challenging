@@ -1,7 +1,6 @@
 /*
 Returns hello + string parameter 
 output: typeof(string)
-
 */
 
 function hello(string){
