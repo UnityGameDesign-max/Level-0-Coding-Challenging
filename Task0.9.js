@@ -6,31 +6,36 @@ output: typeof(string)
 function vowelDisplay(string){
 
     var vowels = " ";
+    var vowelList = [];
     var ls = [];
     for(var i=0; i<string.length; i++){
-        ls.push(string[i]);
+        vowelList.push(string[i]);
     }
-    for (var i=0; i<ls.length;  i++){
 
-        switch (ls[i]){
-            case "a" || "A":
-                vowels += ls[i];
-                break;
-            case "e" || "E":
-                vowels += ls[i];
-                break;
-            case "i" || "I":
-                vowels += ls[i];
-                break;
-            case "o" || "O":
-                vowels += ls[i];
-                break;
-            case "u" || "U":
-                vowels += ls[i];
-                break;
+    for (var i=0; i<vowelList.length;  i++){
+
+        if (vowelList[i] === "a" || vowelList[i] ==="A"){
+            vowels += vowelList[i] + ',';
+           
         }
+        else if(vowelList[i] === "e" || vowelList[i] ==="E"){
+            vowels += vowelList[i] + ',';
+        }
+        else if(vowelList[i] === "i" || vowelList[i] ==="I"){
+            vowels += vowelList[i] + ',';
+        }
+
+        else if(vowelList[i] === "o" || vowelList[i] ==="O"){
+            vowels += vowelList[i] + ',';
+        }
+        else if(vowelList[i] === "u" || vowelList[i] ==="U"){
+            
+            vowels += vowelList[i] + ',';
+        }
+
     }
-    return  "Vowels: " + vowels;
+    return  "Vowels: "+  vowels ;
     
 }
+
 console.log(vowelDisplay("Umuzi"));

@@ -1,26 +1,25 @@
+function maximum() {
 /*
 Takes any number of inputs as arguments and return the maximum
 output : integer
+This is the Bonus question that takes any number of arguments in a function
+and return a maximum
 */
 
-function maximum() {
-    var maxLength = [];
-    var maxCount = 0;
-    for(var i=0; i<arguments.length; i++){
-        if (arguments.length >= maxCount.length){
-            maxCount.length = arguments.length;
-        }
-    }
-    for(var i=0; i<arguments.length; i++){
-        if (arguments.length == maxCount.length){
-            maxLength.push(arguments[i]);
-        }
-    }
-    for(var i=0; i<maxLength.length; i++){
-        console.log(arguments[i]);
+    var maximumList = [];
+    maximumCounter = 0;
+
+    for (var i=0; i<arguments.length; i++) {
+        maximumList.push(arguments[i]);
     }
     
-    return " ";
+    for (var i=0; i<maximumList.length; i++) {
+        if(maximumList[i] > maximumCounter ){
+            maximumCounter = maximumList[i];
+        }
+    }
+    return maximumCounter;
+
 }
 
-// console.log(maximum(1, 22, 3, 2));
+

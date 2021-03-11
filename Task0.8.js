@@ -21,4 +21,3 @@ function timeConverter(num){
     return time;
 }
 
-console.log(timeConverter(61));

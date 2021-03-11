@@ -1,7 +1,7 @@
 /* 
 Change the temp parameter from degrees to Fahrenheits
-Also from Fahrenheits to degrees
-Output : typeof(float) 
+Also from Fahrenheits to degrees.
+Output : float
 */
 
 function celsiusToFahrenheit (temp) {
