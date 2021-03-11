@@ -5,14 +5,12 @@ output: typeof(string)
 */
 
 function evenOrOdd(number) {
-    if (typeof(number) === 'number'){
-        if (number % 2 == 0){
-            return "even";
-        }else{
-            return "odd";
-        }
+    
+    if (number % 2 == 0){
+        return "even";
     }else{
-        return "Invalid Inputs!"
+        return "odd";
     }
+
     
 }

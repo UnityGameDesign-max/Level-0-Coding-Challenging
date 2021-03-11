@@ -33,5 +33,4 @@ function vowelDisplay(string){
     return  "Vowels: " + vowels;
     
 }
-
 console.log(vowelDisplay("Umuzi"));
