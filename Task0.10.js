@@ -26,4 +26,3 @@ output: string
     return result;
 }
 
-console.log(commonLetters("umzi", "compuuters"))
