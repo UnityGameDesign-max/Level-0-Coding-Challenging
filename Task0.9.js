@@ -38,4 +38,3 @@ function vowelDisplay(string){
     
 }
 
-console.log(vowelDisplay("Umuzi"));
