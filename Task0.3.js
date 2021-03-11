@@ -1,8 +1,3 @@
-/*
-Returns hello + string parameter 
-output: typeof(string)
-*/
-
 function hello(string){
     if(typeof(string) === 'string'){
         greetings = "Hello " + string;
@@ -13,6 +8,4 @@ function hello(string){
     }
     
 }
-
-console.log(hello(6));
 

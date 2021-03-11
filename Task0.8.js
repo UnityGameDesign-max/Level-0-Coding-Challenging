@@ -1,4 +1,3 @@
-/* Takes any number and converts to Hours and minutes */
 
 function timeConverter(num){
     var deciNumber = num / 60;

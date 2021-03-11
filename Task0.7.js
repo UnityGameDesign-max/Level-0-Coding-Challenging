@@ -1,9 +1,3 @@
-/* 
-Change the temp parameter from degrees to Fahrenheits
-Also from Fahrenheits to degrees.
-Output : float
-*/
-
 function celsiusToFahrenheit (temp) {
     tempInFahrenheit = 9/5*temp + 32;
     return tempInFahrenheit;

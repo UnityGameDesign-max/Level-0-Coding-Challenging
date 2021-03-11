@@ -1,11 +1,6 @@
 
 
 function commonLetters(str1, str2) {
-/*
-Takes in two string inputs and return common letters  
-output: string
-*/
-
     var commonLetter = ""
 
     var commonLetterList = []

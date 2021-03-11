@@ -1,8 +1,3 @@
-/*
-Takes a string and shows in vowels in that string 
-output: typeof(string)
-*/
-
 function vowelDisplay(string){
 
     var vowels = " ";

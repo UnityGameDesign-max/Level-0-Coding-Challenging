@@ -1,11 +1,4 @@
 function maximum() {
-/*
-Takes any number of inputs as arguments and return the maximum
-output : integer
-This is the Bonus question that takes any number of arguments in a function
-and return a maximum
-*/
-
     var maximumList = [];
     maximumCounter = 0;
 
